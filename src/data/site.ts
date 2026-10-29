@@ -13,13 +13,12 @@ export const site = {
   city: '广州',
   description:
     '沐椿风位于广州，专注非遗手工旗袍定制与教学。从量体、打板到缝制，为你做一件独属于自己的旗袍。',
-  // 以下为占位信息，请替换
-  address: '广州市（待补充：详细门店地址）',
-  phone: '待补充',
-  wechat: '待补充',
-  hours: '待补充：营业时间',
+  address: '广州市番禺区大龙街亚运大道567号101铺（部位：114）',
+  phone: '13824445320',
+  wechat: '赋晓词（扫描下方二维码添加）',
+  hours: '9:00 – 19:00',
   // 微信二维码图片放到 public/images/wechat-qr.jpg 后，把下面改成 true
-  hasWechatQr: false,
+  hasWechatQr: true,
 } as const;
 
 export const nav = [

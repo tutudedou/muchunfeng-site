@@ -39,7 +39,7 @@ export default function ContactPage() {
             </ul>
             <div style={{ marginTop: 32 }}>
               {site.hasWechatQr ? (
-                <Image src={asset('/images/wechat-qr.jpg')} alt="微信二维码" width={260} height={260} />
+                <Image src={asset('/images/wechat-qr.jpg')} alt="微信二维码" width={260} height={331} />
               ) : (
                 <div className="qr-placeholder">微信二维码位置（待补充）</div>
               )}
